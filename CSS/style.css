@@ -1,0 +1,24 @@
+body {
+    background-color: pink;
+}
+.Weather-body-background {
+    background-color: khaki
+}
+.Sports-body-background {
+    background-color: teal;
+}
+h1 {
+    color: navy;
+}
+h2{
+    color: green;
+}
+p {
+    color: midnightblue;
+}
+h4{
+    color: purple;
+}
+h3 {
+    color: brown;
+}
