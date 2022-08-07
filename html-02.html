@@ -1,56 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student form</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student form</title>
 </head>
 <body>
-    <form id="student-form">
-        <div>
-            <h3 id="Form-header"><Enter Stdent data></h3>
-                <p style="text-align:center;">Entrer student details here</p>
-            <div>
-                <label>First name</label>
-            <input type="text" id="Firstname">
-        </div>
-        <div>
-            <label>Last name</label>
-            <input type="text" id="Lastname">
-        </div>
-        <div>
-            <label>Age</label>
-            <input type="number" id="Age">
-        </div>
-        <div>
-            <label>Address</label>
-            <input type="textarea" id="'address" placeholder=""enter your address in multiple lines">
-        </div>
-        <div>
-            <label>User Name</label>
-            <input type="text" id="username">
-        </div>
-        <div>
-            <label>Password</label>
-            <input type=""password" id="'pwd">
-        </div>
-        <div>
-            <label>Gender</label>
-            <input type="radio" id="gender" value="M">Male
-            <label>Gender</label>
-            <input type="radio" id="'gender" value="F">Female
-        </div>
-        <div>
-            <label>Intersts</label>
-            <input type="checkbox" id="Sports" value="M">Sports
-            <input type="checkbox" id="Sports" value="M">Travel
-            <input type="checkbox" id="Sports" value="M">Cooking
-            <input type="checkbox" id="Sports" value="M">Reading
-        </div>
-
-        </div>
-
-    </form>
-</body>
+  <form id="student-form" style="margin: top 30px;">
+    <h1 style="border:2px solid black; text-align:center; background-color: green;" id="Form-header">Enter Student data</h1>
+    <div style="border:2px solid black; float:left; margin: auto; padding:10px; color:black;" id="data-boxes-styling">
+     <div id="user-name">
+       <label>User name</label>
+       <input type="text" id="Username" placeholder="Enter a username">
+     </div>
+     <div id="password">
+        <label>Password&nbsp;&nbsp;</label>
+        <input type="password" id="'pwd">
+     </div>
+     <div id="first-name">
+        <label>First name</label>
+        <input type="text" id="Firstname">
+      </div>
+      <div id="last-name">
+        <label>Last name</label>
+        <input type="text" id="Lastname">
+      </div>
+      <div id="age">
+        <label>Age &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="number" id="Age">
+      </div>
+      <div id="address">
+        <label>Address&nbsp;&nbsp;&nbsp;</label>
+        <input type="textarea" id="'address" placeholder=""enter your address in multiple lines">
+        &nbsp;&nbsp;<select id="countries">
+            <option>USA</option>
+            <option>India</option>
+            <option>UK</option>
+            <option>France</option>
+            <option>Germany</option>
+            <option>Italy</option>
+            <option>Russia</option>
+        </select>
+    </div>
+      <div id="gender-radio">
+        <label>Gender</label>
+        <input type="radio" id="gender" value="M" name="Gender">Male
+        <input type="radio" id="'gender" value="F" name="Gender">Female
+      </div>
+      <div id="interests-chkbox">
+        <label>Interests</label>
+        <input type="checkbox" id="Sports" value="M">Sports
+        <input type="checkbox" id="Sports" value="M">Travel
+        <input type="checkbox" id="Sports" value="M">Cooking
+        <input type="checkbox" id="Sports" value="M">Reading
+      </div>
+      <div style="border:1px; padding: 5px; background-color: blue; text-align:center;" id="button-style">
+        <button type="button">Register</button>
+    </div>
+    </div>    
+   </form>
+ </body>
 </html>
